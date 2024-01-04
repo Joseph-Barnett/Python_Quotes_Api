@@ -13,6 +13,8 @@ python-dotenv = "*"
 
 [dev-packages]
 pytest = "*"
+pytest-cov = "*"
+pytest-watch = "*"
 
 [requires]
 python_version = "3.11"
@@ -20,3 +22,4 @@ python_version = "3.11"
 [scripts]
 dev="flask run"
 test="pytest"
+coverage = "pytest --cov=app --cov-report term-missing"
