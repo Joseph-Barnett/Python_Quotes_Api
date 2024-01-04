@@ -5,7 +5,7 @@
 - `git clone git@github.com:Joseph-Barnett/Python_Quotes_Api_Server.git`
 - In terminal run `pipenv shell`
 - Add a .env file
-- Create a database (I used elephantsql)
+- Create a database - I used elephantsql
 - Inside of the .env add this text
   ```
   FLASK_DEBUG=1
