@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+.env
+__pycache__/
+Pipfile.lock
+venv/
+.coverage
+>>>>>>> 5f8d08052faa03fc2aae0e3ad8a513960dc7f5c3

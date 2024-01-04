@@ -1,10 +1,11 @@
 import React from 'react';
 import { QuoteComponent } from './Components';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <QuoteComponent />
+      <div className='section'><QuoteComponent /></div>
     </div>
   );
 }

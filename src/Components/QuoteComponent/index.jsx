@@ -20,7 +20,7 @@ export function QuoteComponent ()  {
     <div>
       <h1>Random Quote Generator</h1>
       <p>{quote}</p>
-      <p>{author}</p>
+      <p><em>{author}</em></p>
       <button onClick={fetchQuote}>Get New Quote</button>
     </div>
   );
